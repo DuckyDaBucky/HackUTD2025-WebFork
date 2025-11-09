@@ -18,9 +18,14 @@ export default function Home() {
           <p className="text-2xl md:text-3xl font-thin text-white mb-4">
             at Kori.study
           </p>
-          <button className="mt-8 px-10 py-4 bg-white text-pink-600 font-semibold text-lg rounded-full hover:bg-pink-50 hover:scale-105 transition-all duration-300 shadow-xl">
-            Download Now
-          </button>
+          <a 
+            href="https://devpost.com/software/kori?ref_content=user-portfolio&ref_feature=in_progress" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="mt-8 px-10 py-4 bg-white text-pink-600 font-semibold text-lg rounded-full hover:bg-pink-50 hover:scale-105 transition-all duration-300 shadow-xl inline-block"
+          >
+            Explore How
+          </a>
         </div>
       </header>
 
